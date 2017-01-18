@@ -16,7 +16,7 @@ namespace Test
             Console.WriteLine("Input the text!");
             string s = Console.ReadLine();
             Console.WriteLine(s);
-            Console.ReadKey();
+           
 
 
 
