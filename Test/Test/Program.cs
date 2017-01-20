@@ -6,23 +6,23 @@ using System.Threading.Tasks;
 
 
 
-
-
-
-
-
 namespace Test
-    
 {
-    using Translate;
     class Program
     {
-        static void Main(string[] args)
-
+        static void Main(string [] args)
         {
-            Console.WriteLine(s);
-            Console.ReadLine();
+            var l = "ABC";
+
+            Console.WriteLine(l.ToLower());
+            Console.ReadKey();
+
+
         }
+        
+
+
     }
-    
+
+
 }

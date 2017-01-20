@@ -4,26 +4,53 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Translate
+namespace ExtensionMethods
 {
-    public static class Translater
+    public static class StringExtension
     {
 
-        public static string A(this string s)
-
+        public static string ToLower(this string s)
         {
-            Dictionary<string, string> dictionary = new Dictionary<string, string>();
+            var low = new Dictionary<string, string>
+            {
 
-            dictionary.Add("A", "a");
-            dictionary.Add("B", "b");
-            dictionary.Add("C", "c");
+                {"A", "a"},
+                {"B", "b" },
+            { "C", "c" },
+            { "D", "d" },
+            { "E", "e" },
+                { "F", "f" },
+                { "G", "g" },
+            ("H", "h" },
+            ("I", "i"},
+            ("J", "j"},
+            ("K", "k"}',
+            ("L", "l"
+            ("M", "m");
+            ("N", "n");
+            ("O", "o");
+            ("P", "p");
+            ("Q", "q");
+            ("R", "r");
+            ("S", "s");
+            ("T", "t");
+            ("U", "u");
+            ("V", "v");
+            ("W", "w");
+            ("X", "x");
+            ("Y", "y");
+            ("Z", "z");
 
-            return s;
+        };
 
+            return low.Aggregate(s, (current, pair) => current.Replace(pair.Key, pair.Value));
 
         }
+
+
+}
 
     }
 
 
-}
+
