@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test
+
+namespace Translater
 {
-    public static class Replace
+    public static class Extentsion
+
     {
         
-            
-        
+
+        }
     }
 }
