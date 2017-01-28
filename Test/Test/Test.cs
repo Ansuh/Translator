@@ -48,14 +48,14 @@ namespace ExtensionMethods
         }
 
 
-        public static string ToArmenia(this string a)
+
+        public static string ToArmenia(this string s)
         {
-            var arm = new Dictionary<string, string>
+            var armenia = new Dictionary<string, string>
             {
 
                 {"A", "Ա"},
                 {"B", "Բ"},
-                {"C", "Ս"},
                 {"D", "Դ"},
                 {"E", "Ե"},
                 {"F", "Ֆ"},
@@ -70,60 +70,17 @@ namespace ExtensionMethods
                 {"O", "Օ"},
                 {"P", "Պ"},
                 {"Q", "Ք"},
-                {"R", "Ր"},
+                {"R", "Ռ"},
                 {"S", "Ս"},
                 {"T", "Տ"},
                 {"U", "ՈՒ"},
                 {"V", "Վ"},
                 {"Y", "Յ"},
                 {"Z", "Զ"},
-                {"Ch", "Չ"},
-                {"Sh", "Շ"},
-                {"Vo", "Ո"},
-                {"Kh", "Խ"},
-                {"Gh", "Ղ"},
-
-
-
-
-
-
-
-
-                {"a", "ա"},
-                {"b", "բ"},
-                {"c", "ս"},
-                {"d", "դ"},
-                {"e", "ե"},
-                {"f", "ֆ"},
-                {"g", "գ"},
-                {"h", "հ"},
-                {"i", "ի"},
-                {"l", "ջ"},
-                {"k", "կ"},
-                {"l", "լ"},
-                {"m", "մ"},
-                {"n", "ն"},
-                {"o", "օ"},
-                {"p", "պ"},
-                {"q", "ք"},
-                {"r", "ր"},
-                {"s", "ս"},
-                {"t", "տ"},
-                {"u", "ու"},
-                {"v", "վ"},
-                {"y", "յ"},
-                {"z", "զ"},
-                {"ch", "չ"},
-                {"sh", "շ"},
-                {"vo", "ո"},
-                {"kh", "ծ"},
-                {"gh", "ղ"},
-                {"ev", "և"},
 
         };
 
-            return arm.Aggregate(a, (current, pair) => current.Replace(pair.Key, pair.Value));
+            return armenia.Aggregate(s, (current, pair) => current.Replace(pair.Key, pair.Value));
 
         }
 
