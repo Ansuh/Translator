@@ -11,14 +11,32 @@ The method **ToLover()** allows you convert uppercase letters to lovercase. For 
 "A" => "a";
 "B" => "b" etc.
 
-#### The output
-"TOLOVER" => "tolover"
-
 
 Thie method allows you to convert latin letters into armenian. For example:
 "a" => "ա",
 "b" => "բ" etc.
 
+
+``` c#
+
+static void Main(string [] args)
+        {
+            var l = "ABC";
+            var k = "TOLOVER";
+
+            Console.WriteLine(l.ToLower());
+            Console.WriteLine(k.ToArmenia());
+            Console.ReadKey();
+
+
+        }
+ ```
+
 #### The output
 
-"ANUSH" => "ԱՆՈՒՇ"
+abc
+tolover
+
+
+
+
