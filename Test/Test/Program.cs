@@ -14,7 +14,7 @@ namespace Test
         static void Main(string [] args)
         {
             var l = "ABC";
-            var k = "ANUSH";
+            var k = "TOLOVER";
 
             Console.WriteLine(l.ToLower());
             Console.WriteLine(k.ToArmenia());
