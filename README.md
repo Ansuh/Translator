@@ -22,7 +22,7 @@ Thie method allows you to convert latin letters into armenian. For example:
 static void Main(string [] args)
         {
             var l = "ABC";
-            var k = "TOLOVER";
+            var k = "Anush";
 
             Console.WriteLine(l.ToLower());
             Console.WriteLine(k.ToArmenia());
@@ -35,8 +35,6 @@ static void Main(string [] args)
 #### The output
 
 abc
-tolover
 
-
-
+Անուշ
 
